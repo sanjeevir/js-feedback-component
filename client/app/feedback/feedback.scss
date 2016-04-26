@@ -1,0 +1,7 @@
+.feedback-component input[name="view-type"] + label + .feedbacks-section{
+    display: none;
+}
+
+.feedback-component input[name="view-type"]:checked + label + .feedbacks-section{
+    display: block;
+}
